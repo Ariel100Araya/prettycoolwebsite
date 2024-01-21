@@ -49,8 +49,9 @@ body {
     }
 .hover-underline-animation {
   display: inline-block;
-  position: absolute;
+  position: relative;
   color: black;
+  margin-top: -50px;
 }
 .hover-underline-animation:after {
   content: '';
