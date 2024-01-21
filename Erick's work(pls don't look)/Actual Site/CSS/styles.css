@@ -64,11 +64,13 @@ body {
   background-color: black;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
+  margin-top: -50px;
 }
 
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+  margin-top: -50px;
 }
 .style-logo {
 	margin-left: auto;
