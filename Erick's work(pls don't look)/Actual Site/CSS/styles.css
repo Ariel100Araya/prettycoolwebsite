@@ -49,7 +49,7 @@ body {
     }
 .hover-underline-animation {
   display: inline-block;
-  position: relative;
+  position: absolute;
   color: black;
 }
 .hover-underline-animation:after {
