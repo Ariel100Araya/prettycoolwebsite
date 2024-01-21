@@ -51,7 +51,6 @@ body {
   display:inline-block;
   position: relative;
   color: black;
-  margin-top: -50px;
 }
 .hover-underline-animation:after {
   content: '';
@@ -64,13 +63,12 @@ body {
   background-color: black;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
-  margin-top: -50px;
 }
 
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
-  margin-top: -50px;
+  
 }
 .style-logo {
 	margin-left: auto;
@@ -252,8 +250,12 @@ p {
 		text-align: center;
 		display: block;
 		text-transform: uppercase;
-		padding-right: 8%;
+		padding-top: 8%;
+		padding-right: 5%;
+		padding-left: 5%;
+		padding-bottom: 3%;
 		margin-top: -80px;
+		text-align: right;
 	}
 	.style-nav {
 		float: right;
