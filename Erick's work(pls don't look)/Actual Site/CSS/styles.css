@@ -196,6 +196,14 @@ ul.b {
 	.hide-mobile{
         display: none;
     }
+	.tr {
+		display:inline-block;
+		text-decoration: none;
+		color: black;
+		display: block;
+		text-transform: uppercase;
+		align-self: center;
+	}
 	body {
 		max-width: 778px;
 	}
