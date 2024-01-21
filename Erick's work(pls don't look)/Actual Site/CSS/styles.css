@@ -236,6 +236,13 @@ ul.b {
 	.col-md-3 {
 		width: 75%;
 	}
+	.in-text {
+		font-size: 180%;
+		display: block;
+		text-align: center;
+		display: inline-block;
+		color:black;
+	}
 }
 
 
