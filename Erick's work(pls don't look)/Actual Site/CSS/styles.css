@@ -194,7 +194,11 @@ ul.b {
 	.style-nav ul li {
 		display: inline-block;
 	}
-	
+	.bottom-content {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	  }
 	.style-nav ul {
 		text-align: center;
 	}
