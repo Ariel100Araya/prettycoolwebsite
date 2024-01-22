@@ -20,10 +20,6 @@ img {
 	height: auto;
 	vertical-align: middle;
 }
-.dashed {
-        list-style-type: none;
-        color:black;
-      }
 
 footer {
    position: fixed;
