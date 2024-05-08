@@ -107,4 +107,9 @@ body {
         height: 20vh;
         overflow-x: scroll;
     }
+
+    .top_project_list a {
+        width: 92vw;
+        height: unset;
+    }
 }
