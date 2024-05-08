@@ -101,3 +101,10 @@ body {
 .untouched {
     margin: 5px;
 }
+
+@media screen and (max-width: 767px) {
+    .top_project_list {
+        height: 20vh;
+        overflow-x: scroll;
+    }
+}
