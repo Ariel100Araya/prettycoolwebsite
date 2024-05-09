@@ -105,7 +105,10 @@ body {
 @media screen and (max-width: 767px) {
     .top_project_list {
         height: 20vh;
-        overflow-x: scroll;
+        overflow-x: auto;
+        justify-content: left;
+        margin: 0;
+        width: 100vw;
     }
 
     .top_project_list a {
