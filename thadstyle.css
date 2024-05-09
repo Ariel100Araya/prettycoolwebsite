@@ -108,6 +108,7 @@ body {
         overflow-x: auto;
         justify-content: left;
         margin: 0;
+        margin-top: 10px;
         width: 100vw;
     }
 
