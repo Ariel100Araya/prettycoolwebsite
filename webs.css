@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link_holder {
+    margin-top: 15px;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+.site_link {
+    width: fit-content;
+    min-width: 300px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    display: flex;
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: black 0 0 8px;
+}
+
+.site_link.ariel {
+    background: linear-gradient(to bottom right, #d8d8d8, #8b8b8b)
+}
+
+.site_link.kobi {
+    background: linear-gradient(to bottom right, #777777, #2b2b2b);
+}
+
+.site_link.kircic {
+    background: linear-gradient(to bottom right, #0067CD, #007600);
+}
+
+.site_link.snapshot {
+    background: linear-gradient(to bottom right, #7277FD, #FF7B1D);
+}
+
+.site_link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    transition: border 0.2s;
+}
+
+.site_link:hover::after {
+    border: 3px solid white;
+}
+
+.site_link .icon {
+    aspect-ratio: 1/1;
+    flex: 0 0 auto;
+    height: calc(100% - 10px);
+    margin: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon.ariel {
+    background-size: 112%;
+    background-image: url(nofavicon.svg);
+    filter: brightness(200%)
+}
+
+.icon.kobi {
+    background-size: 112%;
+    background-image: url(nofavicon.svg);
+    filter: brightness(180%) invert(1);
+}
+
+.icon.kircic {
+    background-size: cover;
+    background-image: url(https://www.google.com/s2/favicons?domain=https://www.kircic.org&sz=128);
+}
+
+.icon.snapshot {
+    background-size: 92%;
+    background-image: url(https://www.google.com/s2/favicons?domain=https://www.snapshot.ink&sz=128);
+}
+
+.site_info {
+    flex: 1;
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 2px 2px 4px black;
+}
+
+.site_name {
+    font-weight: 900;
+    font-size: 1.2rem;
+    height: 40%;
+}
+
+.site_text {
+    height: 30%;
+}
+
+.site_author {
+    color: rgba(255, 255, 255, 0.7);
+    height: 30%;
+}
+
+.site_info span {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
