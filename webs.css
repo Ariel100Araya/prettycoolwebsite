@@ -127,3 +127,9 @@ a {
     align-items: center;
     width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+    .link_holder {
+        gap: 0;
+    }
+}
