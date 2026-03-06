@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Newgit</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://unpkg.com/@sakun/system.css" />
+  <style>
+    /* Responsive gallery: multi-column on desktop, single-column on phones */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 12px;
+      align-items: start;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0 0 1rem 0;
+    }
+    .gallery img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      padding: 4px;
+      box-sizing: border-box;
+      background: #fff;
+    }
+    @media (max-width: 600px) {
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+    <div class="window" style="">
+        <div class="title-bar"> 
+            <button aria-label="Close" class="close"></button>
+            <h1 class="title">Newgit</h1>
+            <button aria-label="Resize" class="resize"></button>
+        </div>
+        <div class="separator"></div>
+        <ul role="menu-bar">
+  <li role="menu-item" tabindex="0" aria-haspopup="true">
+    <a href="https://prettycoolwebsite.com">prettycoolwebsite.com</a>
+  </li>
+  <li role="menu-item" tabindex="0" aria-haspopup="true">
+    <a href="https://github.com/Ariel100Araya/Newgit/releases">Get on GitHub</a>
+  </li>
+  <li role="menu-item" tabindex="0" aria-haspopup="true">
+    Source code
+    <ul role="menu">
+      <li role="menu-item"><a href="https://github.com/Ariel100Araya/Newgit">See the code on GitHub</a></li>
+      <li role="menu-item"><a href="mailto:ariel@prettycoolwebsite.com">E-mail Ariel</a></li>
+    </ul>
+  </li>
+</ul>
+        <div class="window-pane">
+                <h1> Newgit</h1>
+                <h2>GitHub has never looked this nice</h2>
+                <h3><a href="https://github.com/Ariel100Araya/Newgit">See the project on GitHub</a></h3>
+                <div class="gallery">
+                  <img src="screenshots/s3.png" alt="Newgit screenshot">
+                  <img src="screenshots/s4.png" alt="Newgit screenshot">
+                  <img src="screenshots/s1.png" alt="Newgit screenshot">
+                  <img src="screenshots/s2.png" alt="Newgit screenshot">
+                </div>
+                <h2>Hi there!</h2>
+                <p>Hi! My name is Ariel and this is Newgit (pronounced new git) if you find a better name for this project, please let me know. </p>
+                <h2>The idea</h2>
+                <p>Basically GitHub Desktop is based on Electron and although it works with multiple platforms it looks a little odd with the new design language of macOS, like a relic of the past of the days of macOS Yosemite. </p>
+                <p>So I decided to make a GitHub client that looks native on macOS using Swift and SwiftUI. The idea is to make a simple GitHub client that allows you to manage your repositories. </p>
+                <h2>Wait what the heck is Git and GitHub?</h2>
+                <div class="explain">
+                    <p>No idea what Git and GitHub are? Let me explain:</p>
+                    <p><strong>git</strong> is a distributed version control system that runs on your computer. It records changes to files over time (commits), lets you create branches to safely experiment, and provides tools to merge and inspect history so multiple people can work on the same code without losing work.</p>
+                    <p><strong>GitHub</strong> is a web-based service built around git repositories. It hosts your git repositories remotely and adds collaboration features like pull requests for code review, issue tracking, release management, and integrations (CI/CD), making team workflows and open-source collaboration easier.</p>
+                </div>
+                <h2>How do I download Newgit?</h2>
+                <div class="explain">
+                    <p>Before you begin you need three things, a Mac running macOS Tahoe, HomeBrew installed on the system, and gh installed as well. Then you sign into gh by typing in your terminal: gh auth login. <a href="https://github.com/Ariel100Araya/Newgit/releases">You're all set after that, you can download Newgit through this link!</a></p>
+                </div>
+                <h2>Made by Ariel in 2025</h2>
+                <p>Are you using Newgit? Have any questions or issues? Let me know! <a href="mailto:ariel@prettycoolwebsite.com">E-mail me!</a></p>
+            </div>
+    </div>
+</body>
+</html>
