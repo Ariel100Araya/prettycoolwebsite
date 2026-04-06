@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ColorCatcher</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://unpkg.com/@sakun/system.css" />
+  <style>
+    /* Responsive gallery: multi-column on desktop, single-column on phones */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 12px;
+      align-items: start;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0 0 1rem 0;
+    }
+    .gallery img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+      padding: 4px;
+      box-sizing: border-box;
+      background: #fff;
+    }
+    @media (max-width: 600px) {
+      .gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+    <div class="window" style="">
+        <div class="title-bar"> 
+            <button aria-label="Close" class="close"></button>
+            <h1 class="title">ColorCatcher</h1>
+            <button aria-label="Resize" class="resize"></button>
+        </div>
+        <div class="separator"></div>
+        <ul role="menu-bar">
+  <li role="menu-item" tabindex="0" aria-haspopup="true">
+    <a href="https://prettycoolwebsite.com">prettycoolwebsite.com</a>
+  </li>
+  <li role="menu-item" tabindex="0" aria-haspopup="true">
+    Get it
+    <ul role="menu">
+      <li role="menu-item"><a href="https://github.com/Ariel100Araya/ColorCatcher">See the code on GitHub</a></li>
+      <li role="menu-item"><a href="https://apps.apple.com/us/app/colorcatcher-hex-and-rgb/id6761736125">Get on the App Store</a></li>
+    </ul>
+  </li>
+  <li role="menu-item" tabindex="0" aria-haspopup="true">
+    Source code
+    <ul role="menu">
+      <li role="menu-item"><a href="https://github.com/Ariel100Araya/ColorCatcher">See the code on GitHub</a></li>
+      <li role="menu-item"><a href="mailto:ariel@prettycoolwebsite.com">E-mail Ariel</a></li>
+    </ul>
+  </li>
+</ul>
+        <div class="window-pane">
+                <h1>ColorCatcher</h1>
+                <h2>Identify colors with ease</h2>
+                <h3><a href="https://github.com/Ariel100Araya/ColorCatcher">See the project on GitHub</a></h3>
+                <div class="gallery">
+                  <img src="screenshots/s8.png" alt="ColorCatcher screenshot">
+                  <img src="screenshots/s9.png" alt="ColorCatcher screenshot">
+                  <img src="screenshots/s10.png" alt="ColorCatcher screenshot">
+                  <img src="screenshots/s11.png" alt="ColorCatcher screenshot">
+                </div>
+                <h2>Hi there!</h2>
+                <p>Hi! My name is Ariel and this is ColorCatcher. A small but mighty Color Identification program.</p>
+                <h2>The idea</h2>
+                <p>ColorCatcher is a simple Color Picker like the one in macOS, the difference is that this one shows the Hex and RGB values (unlike the macOS one that only does RGB colors)</p>
+                <p>When you have the perfect color and don't want to remember the code, you can just pin it to the top by pressing the pin button on the corner.</p>
+                <h2>How do I download ColorCatcher?</h2>
+                <div class="explain">
+                    <p>You can download ColorCatcher from the <a href="https://apps.apple.com/us/app/colorcatcher-hex-and-rgb/id6761736125">App Store</a>, you can also find it on <a href="https://github.com/Ariel100Araya/ColorCatcher/releases">GitHub Releases</a>.</p>
+                </div>
+                <h2>Made by Ariel in 2026</h2>
+                <p>Are you using ColorCatcher? Have any questions or issues? Let me know! <a href="mailto:ariel@prettycoolwebsite.com">E-mail me!</a></p>
+            </div>
+    </div>
+</body>
+</html>
