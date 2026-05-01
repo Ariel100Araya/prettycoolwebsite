@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "TEAMID.xyz.arielaraya.Cali-Pages.again"
+        ],
+        "components": [
+          {
+            "/": "/CaliPages/*"
+          }
+        ]
+      }
+    ]
+  },
+  "appclips": {
+    "apps": [
+      "TEAMID.xyz.arielaraya.Cali-Pages.again.Clip"
+    ]
+  }
+}
