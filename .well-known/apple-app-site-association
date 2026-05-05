@@ -3,7 +3,7 @@
     "details": [
       {
         "appIDs": [
-          "TEAMID.xyz.arielaraya.Cali-Pages.again"
+          "xyz.arielaraya.Cali-Pages.again"
         ],
         "components": [
           {
@@ -15,7 +15,7 @@
   },
   "appclips": {
     "apps": [
-      "TEAMID.xyz.arielaraya.Cali-Pages.again.Clip"
+      "xyz.arielaraya.Cali-Pages.again.Clip"
     ]
   }
 }
