@@ -3,11 +3,11 @@
     "details": [
       {
         "appIDs": [
-          "TEAMID.xyz.arielaraya.Cali-Pages.again"
+          "XA7HZH3U9X.xyz.arielaraya.Cali-Pages.again"
         ],
         "components": [
           {
-            "/": "/CaliPages/*"
+            "/": "/shared/*"
           }
         ]
       }
@@ -15,7 +15,7 @@
   },
   "appclips": {
     "apps": [
-      "TEAMID.xyz.arielaraya.Cali-Pages.again.Clip"
+      "XA7HZH3U9X.xyz.arielaraya.Cali-Pages.again.Clip"
     ]
   }
 }
